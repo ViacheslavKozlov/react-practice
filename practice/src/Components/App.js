@@ -1,6 +1,7 @@
-import React from 'react';
-import Header from './header/Header';
-import Main from './main/Main'
+import React from "react";
+import Header from "./header/Header";
+import Main from "./main/Main";
+
 const App = () => {
     return (
         <>
@@ -8,6 +9,6 @@ const App = () => {
             <Main />
         </>
     );
-}
+};
 
 export default App;
