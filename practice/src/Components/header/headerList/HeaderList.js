@@ -1,12 +1,15 @@
 import data from '../../../data/index'
+import { HeaderListContainer } from './HeaderListStyled';
 
 const HeaderList = () => {
     return (
-        <ul>
+        <HeaderListContainer>
+        <ul className='headerList'>
             {data.header.map((headerItem) => (
-                <li key={headerItem} > {headerItem} </li>
+                <li className='headerListItem' key={headerItem} > {headerItem} </li>
             ))}
-        </ul>
+            </ul>
+        </HeaderListContainer>   
     );
 };
 export default HeaderList
